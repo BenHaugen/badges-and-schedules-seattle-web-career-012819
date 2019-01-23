@@ -11,7 +11,8 @@ def badge_badge_creator(attendees)
    return badges
 end 
 
-def assign_rooms(attendees)
+room = (1..7)
+def assign_rooms(attendees, room)
   
 end 
   
