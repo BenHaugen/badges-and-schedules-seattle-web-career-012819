@@ -11,6 +11,7 @@ def badge_badge_creator(attendees)
    return badges
 end 
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
+  
 end 
   
