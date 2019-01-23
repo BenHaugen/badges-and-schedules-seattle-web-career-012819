@@ -12,8 +12,8 @@ def badge_badge_creator(attendees)
 end 
 
 
-def assign_rooms(attendees, room)
-  room = (1..7).each_with_index
+def assign_rooms(attendees)
+  room = (1..7).each_with_index do |value, index|
   return "Hello, #{attendees}! You'll be assigned to room #{room}!"
 end 
   
