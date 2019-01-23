@@ -34,3 +34,5 @@ end
 def printer
   puts batch_badge_creator
   assign_rooms.each do |rooms|
+    puts rooms 
+  end 
