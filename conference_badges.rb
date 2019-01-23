@@ -5,6 +5,6 @@ def badge_maker(name)
 end 
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-def badge_maker_creator(names)
-  return names 
+def badge_maker_creator(attendees)
+   
 end 
