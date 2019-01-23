@@ -31,8 +31,8 @@ end
 ## end
 ## end
 
-def printer()
-  puts batch_badge_creator
+def printer(final_badges)
+  puts batch_badge_creator.each
   puts assign_rooms.each
   
 end
