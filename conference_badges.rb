@@ -20,5 +20,6 @@ def assign_rooms(attendees)
   attendees.each_with_index do |name, room|
   new_array.push("Hello, #{name}! You'll be assigned to room #{room}!"
 end 
+return new_array
 end
   
