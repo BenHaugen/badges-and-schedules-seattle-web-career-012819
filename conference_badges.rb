@@ -13,6 +13,6 @@ end
 
 room = (1..7)
 def assign_rooms(attendees, room)
-  
+  return "Hello, #{attendees}! You'll be assigned to room #{room}!"
 end 
   
