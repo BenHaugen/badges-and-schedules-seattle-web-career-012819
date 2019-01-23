@@ -10,3 +10,6 @@ def badge_maker_creator(attendees)
    badges.push(attendees)
    return badges
 end 
+
+def assign_rooms(speakers)
+  
