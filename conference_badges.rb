@@ -31,11 +31,11 @@ end
 ## end
 ## end
 
-def printer(final_badges)
-  batch_badge_creator.each(final_badges) do |badge|
+def printer(attendees)
+  batch_badge_creator.each(attendees) do |badge|
     puts badge
   end
-  assign_rooms.each(final_badges) do |rooms|
+  assign_rooms.each(attendees) do |rooms|
     puts rooms
   end
 end
