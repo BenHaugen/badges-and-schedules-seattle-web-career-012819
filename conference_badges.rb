@@ -32,10 +32,10 @@ end
 ## end
 
 def printer(final_badges)
-  batch_badge_creator.each do |badge|
+  batch_badge_creator.each(final_badges) do |badge|
     puts badge
   end
-  assign_rooms.each do |rooms|
+  assign_rooms.each(final_badges) do |rooms|
     puts rooms
   end
 end
